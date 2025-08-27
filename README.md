@@ -68,6 +68,25 @@ network-scanner/
 │── screenshot.png   # demo screenshot
 ```
 
+
+---
+
+## 🚀 Getting Started
+```bash
+git clone https://github.com/Giuseppe552/network-scanner.git
+cd network-scanner
+python scanner.py -t scanme.nmap.org -p 1-100
+```
+
+---
+
+## 🛠️ Roadmap
+- [ ] Add UDP scanning
+- [ ] Export results as JSON
+- [ ] Add stealth mode (SYN scan)
+
+
+
 ---
 
 ## 🧑‍💻 Author
