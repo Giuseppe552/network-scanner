@@ -21,6 +21,9 @@ Similar to a mini-Nmap, this tool scans open ports, detects common services, and
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)  
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
 ![License](https://img.shields.io/badge/License-MIT-red)  
+![GitHub stars](https://img.shields.io/github/stars/Giuseppe552/network-scanner?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Giuseppe552/network-scanner?style=social)
+
 
 ---
 
@@ -94,6 +97,11 @@ python scanner.py -t scanme.nmap.org -p 1-100
 **Giuseppe** – Mathematics Graduate & aspiring Security Engineer
 
 * GitHub: [@Giuseppe552](https://github.com/Giuseppe552)
+
+
+⚠️ Disclaimer: This tool is for educational purposes only.  
+Do not use it on networks without permission.  
+
 
 ```
 
