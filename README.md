@@ -77,10 +77,3 @@ network-scanner/
 
 ```
 
----
-
-⚡ Copy all of that into your `README.md` file and commit/push it.  
-It’ll render with **ASCII art, badges, and the demo screenshot** all inside one pro-looking README.  
-
-👉 Do you want me to also write you a **LICENSE.md** (MIT) so your repo looks like a true open-source security tool?
-```
