@@ -1,40 +1,58 @@
-# 🔍 Python Network Scanner  
+# 🕵️‍♂️ Python Network Scanner  
 
-A lightweight **multi-threaded port scanner** written in Python. Similar to a mini-Nmap, this tool scans open ports, detects common services, and grabs banners for additional information.  
+╔════════════════════════════╗
+║ ⚡ Python Port Scanner ⚡ ║
+╚════════════════════════════╝
+
+yaml
+Copy code
+
+A lightweight **multi-threaded port scanner** written in Python.  
+Similar to a mini-Nmap, this tool scans open ports, detects common services, and grabs banners for additional information.  
+
+---
+
+## 📛 Badges  
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)  
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
+![License](https://img.shields.io/badge/License-MIT-red)  
 
 ---
 
 ## 🚀 Features  
-- Scan target IP/hostname across a port range  
-- Multi-threaded scanning (fast)  
-- Detects common services (HTTP, SSH, MySQL, etc.)  
-- Banner grabbing for service details  
-- Saves results to `scan_results.txt`  
+- 🚩 Scan target IP/hostname across a port range  
+- ⚡ Multi-threaded scanning (fast)  
+- 🔍 Detects common services (HTTP, SSH, MySQL, etc.)  
+- 🛰️ Banner grabbing for service details  
+- 🗂️ Saves results to `scan_results.txt`  
 
 ---
 
 ## ⚙️ Usage  
 ```bash
 python scanner.py -t scanme.nmap.org -p 1-100
-```
+Example output:
 
-## Example output:
+pgsql
+Copy code
 [+] Port 22 OPEN (SSH)
 [+] Port 80 OPEN (HTTP)
 [+] Port 443 OPEN (HTTPS) | Banner: Apache/2.4.41 (Ubuntu)
 
 [INFO] Scan complete. Results saved to scan_results.txt
+📸 Demo Screenshot
+Here’s the scanner in action against scanme.nmap.org (safe test server provided by Nmap):
 
-## 📂 Project Structure
+
+📂 Project Structure
+arduino
+Copy code
 network-scanner/
 │── scanner.py       # main script
 │── README.md        # documentation
 │── scan_results.txt # generated results (after run)
-
-## 📸 Demo Screenshot
-
-## 🧑‍💻 Author
-
+│── screenshot.png   # demo screenshot
+🧑‍💻 Author
 Giuseppe – Mathematics Graduate & aspiring Security Engineer
 
 GitHub: @Giuseppe552
