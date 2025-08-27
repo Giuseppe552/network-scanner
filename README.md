@@ -3,13 +3,12 @@
 ```markdown
 # 🕵️‍♂️ Python Network Scanner  
 
-```
 
 ╔════════════════════════════╗
 ║   ⚡ Python Port Scanner ⚡  ║
 ╚════════════════════════════╝
 
-````
+
 
 A lightweight **multi-threaded port scanner** written in Python.  
 Similar to a mini-Nmap, this tool scans open ports, detects common services, and grabs banners for additional information.  
