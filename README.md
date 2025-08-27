@@ -1,11 +1,15 @@
+
+
+```markdown
 # 🕵️‍♂️ Python Network Scanner  
 
+```
+
 ╔════════════════════════════╗
-║ ⚡ Python Port Scanner ⚡ ║
+║   ⚡ Python Port Scanner ⚡  ║
 ╚════════════════════════════╝
 
-yaml
-Copy code
+````
 
 A lightweight **multi-threaded port scanner** written in Python.  
 Similar to a mini-Nmap, this tool scans open ports, detects common services, and grabs banners for additional information.  
@@ -31,28 +35,52 @@ Similar to a mini-Nmap, this tool scans open ports, detects common services, and
 ## ⚙️ Usage  
 ```bash
 python scanner.py -t scanme.nmap.org -p 1-100
+````
+
 Example output:
 
-pgsql
-Copy code
+```
 [+] Port 22 OPEN (SSH)
 [+] Port 80 OPEN (HTTP)
 [+] Port 443 OPEN (HTTPS) | Banner: Apache/2.4.41 (Ubuntu)
 
 [INFO] Scan complete. Results saved to scan_results.txt
-📸 Demo Screenshot
-Here’s the scanner in action against scanme.nmap.org (safe test server provided by Nmap):
+```
 
+---
 
-📂 Project Structure
-arduino
-Copy code
+## 📸 Demo Screenshot
+
+Here’s the scanner in action against **scanme.nmap.org** (safe test server provided by Nmap):
+
+![Demo Screenshot](screenshot.png)
+
+---
+
+## 📂 Project Structure
+
+```
 network-scanner/
 │── scanner.py       # main script
 │── README.md        # documentation
 │── scan_results.txt # generated results (after run)
 │── screenshot.png   # demo screenshot
-🧑‍💻 Author
-Giuseppe – Mathematics Graduate & aspiring Security Engineer
+```
 
-GitHub: @Giuseppe552
+---
+
+## 🧑‍💻 Author
+
+**Giuseppe** – Mathematics Graduate & aspiring Security Engineer
+
+* GitHub: [@Giuseppe552](https://github.com/Giuseppe552)
+
+```
+
+---
+
+⚡ Copy all of that into your `README.md` file and commit/push it.  
+It’ll render with **ASCII art, badges, and the demo screenshot** all inside one pro-looking README.  
+
+👉 Do you want me to also write you a **LICENSE.md** (MIT) so your repo looks like a true open-source security tool?
+```
