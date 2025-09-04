@@ -71,12 +71,20 @@ def run_scanner(target, start_port, end_port, threads=100):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Python Port Scanner")
-    parser.add_argument("-t", "--target", required=True, help="Target IP or hostname")
-    parser.add_argument("-p", "--ports", required=True, help="Port range, e.g. 1-1000")
+    parser.add_argument("-t", "--target", help="Target IP or hostname")
+    parser.add_argument("-p", "--ports", help="Port range, e.g. 1-1000")
     args = parser.parse_args()
 
-    target = args.target
-    start_port, end_port = map(int, args.ports.split("-"))
+    if args.target and args.ports:
+        target = args.target
+        start_port, end_port = map(int, args.ports.split("-"))
+    else:
+        # Replit-friendly interactive input
+        print("Welcome to the Python Network Scanner!")
+        target = input("Enter target host (default: scanme.nmap.org): ") or "scanme.nmap.org"
+        port_range = input("Enter port range (e.g. 1-100): ") or "1-100"
+        start_port, end_port = map(int, port_range.split("-"))
 
     run_scanner(target, start_port, end_port)
+
 
