@@ -115,7 +115,7 @@ Hi, I’m **Giuseppe** 👋
 * I use **Python and modern tools** to turn ideas into fast, reliable projects.
 * Every repo here is a piece of my journey — experiments that sharpen my engineering and problem-solving skills.
 
-📬 Connect with me: [LinkedIn](www.linkedin.com/in/giuseppe552) | [GitHub](https://github.com/Giuseppe552)
+📬 Connect with me: [LinkedIn](https://www.linkedin.com/in/giuseppe552/) | [GitHub](https://github.com/Giuseppe552)
 
 ---
 
