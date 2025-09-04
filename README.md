@@ -63,6 +63,14 @@ Here’s the scanner in action against **scanme.nmap.org** (safe test server pro
 ![Demo Screenshot](screenshot.png)
 
 ---
+## 📸 Live Demo (Replit Screenshot)
+
+Here’s the scanner running live on Replit against the safe test server **scanme.nmap.org**:
+
+![Replit Demo](replit-demo.png)
+
+---
+
 
 ## 📂 Project Structure
 
