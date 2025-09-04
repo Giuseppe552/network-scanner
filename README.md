@@ -1,3 +1,5 @@
+## 🔗 Try it Online
+[![Run on Repl.it](https://repl.it/badge/github/Giuseppe552/network-scanner)](https://repl.it/github/Giuseppe552/network-scanner)
 
 
 # 🕵️‍♂️ Python Network Scanner  
