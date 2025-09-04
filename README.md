@@ -1,5 +1,6 @@
 ## 🔗 Try it Online
-[![Run on Repl.it](https://repl.it/badge/github/Giuseppe552/network-scanner)](https://repl.it/github/Giuseppe552/network-scanner)
+[![Run in Replit](https://img.shields.io/badge/Try%20it-Run%20in%20Replit-blue?logo=replit)](https://replit.com/@Giuseppe552/NetworkScanner)
+
 
 
 # 🕵️‍♂️ Python Network Scanner  
